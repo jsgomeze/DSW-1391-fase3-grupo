@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fase 3 - Grupo</title>
+    <link rel="stylesheet" href="sidemenu.css">
+    <link rel="stylesheet" href="menuorizontal.css">
+</head>
+<body class="body-expanded">
+    <div id="sidemenu" class="menu-expanded">
+        <!-- HEADER -->
+        <div id="header">
+            <div id="title"><span>Temas</span></div>
+            <div id="menu-btn">
+                <div class="btn-hamburger"></div>
+                <div class="btn-hamburger"></div>
+                <div class="btn-hamburger"></div>
+            </div>
+        </div>
+        
+        <!-- PROFILE -->
+        <div id="profile">
+            <div id="photo"><img src="https://www.marketbeat.com/logos/dsw-inc-logo.png" alt=""></div>
+
+            <div id="name"><span>DSW - 1391</span></div>
+        </div>
+
+        <!-- ITEMS -->
+   <br>
+            <div id="menu-items">
+                <div class="item">
+                    <a href="#inicior">
+                        <div class="icon"><img src="inicio.png" alt=""> </div>
+                        <div class="title"><span>INICIO</span></div>
+                    </a>
+                </div>
+
+                <div class="item separator">   
+                </div>
+
+                <div class="item">
+                    <a href="#temas">
+                        <div class="icon"><img src="temas.png" /></div>
+                        <div class="title"><span>TEMAS</span></div>
+                    </a>
+                </div>
+
+                <div class="item separator">   
+                </div>
+
+                <div class="item">
+                    <a href="#nosotrosr">
+                        <div class="icon"><img src="audio.png" /></div>
+                        <div class="title"><span>AUDIOS</span></div>
+                    </a>
+                </div>
+                
+                <div class="item separator">   
+                </div>
+
+                <div class="item">
+                    <a href="#nosotrosr">
+                        <div class="icon"><img src="nosotros.png" /></div>
+                        <div class="title"><span>EQUIPO </span></div>
+                    </a>
+                </div>
+                
+                <div class="item separator">   
+                </div>
+
+            </div>
+        </div>
+
+    <section id="inicior">
+        <center>
+            <div>
+                <div class="titulo"><br><h2>Temas - DSW - Unidad 2</h2><br></div>
+            </div>
+        </center>
+    </section>
+
+   
+    </section>
+    
+    <script> 
+        const btn = document.querySelector('#menu-btn');
+        const menu = document.querySelector('#sidemenu');
+        btn.addEventListener('click', e =>{
+            menu.classList.toggle("menu-expanded");
+            menu.classList.toggle("menu-collapsed");
+
+            document.querySelector('body').classList.toggle('body-expanded');
+        });
+    </script>
+
+<section id="temas">
+    <nav>
+        <li><a href="https://sherman0830.github.io/DSW-Andr-sC-rdenas-1601/">Flex Box</a>
+        <li><a href="https://jsgomeze.github.io/DSW-JuanGomez-1391-fase3/">Selectores CSS</a>
+        <li><a href="#">Media queries</a>
+        <li><a href="#">CSS Grid</a>
+        <li><a href="#">Box model</a>
+    </nav>
+</section>
+
+<br><br><br><br><br><br><br><br><br><br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> <br><br><br><br><br>
+<footer id="nosotrosr">
+    <center>
+        <h4>Politica de privacidad</h4>
+    <p>Copyright ® 2023 UNAD. Todos los derechos reservados</p>
+    <p>Ultima actualizacion 05/04/2023 12:00 pm</p>
+    </center>
+</footer>
+
+</body>
+</html>
